@@ -1,0 +1,44 @@
+/* esto es una variableeeee */
+/* line 13, ../sass/refactoreame.scss */
+.titulo {
+  font-size: 32px;
+  font-weight: 700;
+  color: yellow;
+}
+
+/* line 19, ../sass/refactoreame.scss */
+.estilo {
+  font-style: italic;
+  margin-bottom: 10px;
+  color: yellow;
+}
+
+/* line 25, ../sass/refactoreame.scss */
+.lista {
+  margin-left: 10px;
+  background: pink;
+  padding: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: yellow;
+}
+/* line 32, ../sass/refactoreame.scss */
+.lista .azulito {
+  font-weight: bold;
+  color: blue;
+  display: inline;
+}
+
+/* line 39, ../sass/refactoreame.scss */
+.nota {
+  color: yellow;
+  background: black;
+  padding: 10px;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-webkit-border-radius: 5px;
+  border-radius: 5px;
+}

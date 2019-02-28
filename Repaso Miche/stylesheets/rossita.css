@@ -1,0 +1,133 @@
+/* line 11, ../sass/rossita.scss */
+.container {
+  background-color: #0f1613;
+  display: flex;
+}
+/* line 14, ../sass/rossita.scss */
+.container .avatar {
+  width: 300px;
+  height: auto;
+  padding: 40px;
+}
+/* line 18, ../sass/rossita.scss */
+.container .avatar .imagen {
+  width: 100%;
+  -webkit-border-radius: 150px;
+  -ms-border-radius: 150px;
+  border-radius: 150px;
+}
+/* line 22, ../sass/rossita.scss */
+.container .avatar .alias {
+  font-family: "Asap", sans-serif;
+  color: #fbfd72;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 30, ../sass/rossita.scss */
+.container .texto {
+  display: flex;
+  padding: 120px;
+  font-family: "Asap", sans-serif;
+  color: #fbfd72;
+}
+/* line 35, ../sass/rossita.scss */
+.container .texto .texto-datos {
+  width: 50%;
+  list-style: none;
+  padding: 50px;
+  border: solid 1px #fbfd72;
+}
+/* line 41, ../sass/rossita.scss */
+.container .texto .texto-actividades {
+  width: 50%;
+  margin-left: 20px;
+  padding: 50px;
+  border: solid 1px #fbfd72;
+}
+
+/* line 50, ../sass/rossita.scss */
+.elgrandiv {
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+/* line 54, ../sass/rossita.scss */
+.elgrandiv .logos {
+  display: flex;
+}
+/* line 56, ../sass/rossita.scss */
+.elgrandiv .logos .logo {
+  width: 100px;
+  margin: 30px;
+}
+/* line 59, ../sass/rossita.scss */
+.elgrandiv .logos .logo .imagenlogo {
+  width: 100%;
+}
+/* line 64, ../sass/rossita.scss */
+.elgrandiv .logos2 {
+  display: flex;
+}
+/* line 66, ../sass/rossita.scss */
+.elgrandiv .logos2 .logo {
+  width: 100px;
+  margin: 30px;
+}
+/* line 69, ../sass/rossita.scss */
+.elgrandiv .logos2 .logo .imagenlogo {
+  width: 100%;
+}
+
+/* TABLETS */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* line 82, ../sass/rossita.scss */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 87, ../sass/rossita.scss */
+  .container .texto {
+    margin: 10px auto;
+  }
+
+  /* line 92, ../sass/rossita.scss */
+  .elgrandiv {
+    flex-direction: column;
+  }
+  /* line 94, ../sass/rossita.scss */
+  .elgrandiv .logos {
+    margin: 0 200 0 200;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  /* line 99, ../sass/rossita.scss */
+  .elgrandiv .logos2 {
+    justify-content: center;
+  }
+}
+/* TELEFONO */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* line 111, ../sass/rossita.scss */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  /* line 116, ../sass/rossita.scss */
+  .container .texto {
+    margin: 0 30 0 30;
+  }
+
+  /* line 121, ../sass/rossita.scss */
+  .elgrandiv {
+    flex-direction: column;
+  }
+  /* line 123, ../sass/rossita.scss */
+  .elgrandiv .logos {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

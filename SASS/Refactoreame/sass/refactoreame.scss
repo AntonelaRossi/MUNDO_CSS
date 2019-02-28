@@ -1,0 +1,46 @@
+@mixin border-radius ($border) {
+    -webkit-border-radius: $border; 
+    -ms-border-radius: $border; 
+    -moz-webkit-border-radius: $border; 
+    border-radius: $border;
+    }
+
+
+    /* esto es una variableeeee */
+$color: yellow;
+    
+
+.titulo {
+    font-size: 32px; 
+    font-weight: 700;
+    color: $color;
+}
+
+.estilo {
+font-style: italic; 
+margin-bottom: 10px; 
+color: $color;
+}
+
+.lista {
+    margin-left: 10px;
+    background: pink;
+    padding: 5px;
+    @include border-radius(5px);
+    color: $color; 
+
+    .azulito {
+        font-weight: bold; 
+        color: blue; 
+        display: inline;
+    }
+}
+
+.nota {
+    color: $color; 
+    background: black; 
+    padding: 10px; 
+    text-align: center;
+    @include border-radius(5px);
+}
+
